@@ -15,7 +15,7 @@ console.log(arr);
 const solution = (nums) =>{
     nums.splice(2,0,10000);
 
-    console.log(nums);
+    console.log("nums: "nums);
 }
 
 const nums = [200, 100, 300];
